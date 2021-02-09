@@ -1,0 +1,134 @@
+/* sets background for whole page */
+
+body {
+  background-color: #DDD1C7;
+}
+
+/* took what the headings had in common and consolidated them*/
+
+h1, h2, h3 {
+  color: #370031;
+  font-family: Garamond;
+  text-align: center;
+}
+
+h2, h3 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* shrunk the image down, rounded out the edges, got the left and right margins
+to center, and created the appropriate amount of space from other elements top
+and bottom using padding
+*/
+
+img {
+  height: 25%;
+  width: 25%;
+  border-radius: 30px;
+  margin-left: 37%;
+  margin-right: 37%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/* Found the appropriate width to hold the contents within the body in the way
+that I wanted, with a nice, easily-readable format. Rounded out the edges to
+make it pretty. Centered margins, a thin border, and a little padding on the
+sides so that the words arent right up against the border. */
+
+div {
+  width: 500px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: left;
+  border: 2px solid #370031;
+  }
+
+/* changes to the look of the words of the paragraphs, and creates space between
+words and border at top and bottom of contents*/
+
+p {
+  color: #545E75;
+  font-family: Tahoma;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* changes to the look of the links, and padding to center them */
+
+a {
+  font-family: Tahoma;
+  font-size: 13px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* changes to the color of the link based on how the cursor interacts with it */
+
+a:link {color: #545E75}
+a:visited {color: #370031}
+a:hover {color: #A9ACA9}
+a:active {color: #C03221}
+
+/* horizontal rule. Some specifications to get it to be more centered and a
+matching color with the thickness I want.*/
+hr {
+  height: 1px;
+  width: 510px;
+  color: #370031;
+  background-color: #370031;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* classes for the divs containing the lists. Mostly for centering-within-
+contents type purposes*/
+
+.unordered, .ordered {
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* getting the bullets and numbers in the container for both lists. Also basic
+text changes */
+
+ul, ol {
+  list-style-position: inside;
+  color: #545E75;
+  font-family: Tahoma;
+  font-size: 15px;
+}
+
+/* centering of list items in unordered list */
+
+ul li {
+  text-align: left;
+  padding-left: 160px;
+}
+
+/* centering of list items in ordered list */
+
+ol li {
+  text-align: left;
+  padding-right: 12px;
+}
