@@ -1,0 +1,232 @@
+.name {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 90px;
+    margin-bottom: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+header nav ul li a {
+    color: black;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* html {
+    background: #225560;
+}
+
+header {
+    background: #225560;
+}
+
+header h1 {
+    color: #511730;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Lucida Sans Regular';
+    font-size: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex; 
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #511730;
+    font-family: 'Trebuchet MS'; 
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+  }
+
+#home {
+    background: #757780;
+    display: flex;
+    flex-direction: column;
+    color: #511730;
+    margin-bottom: 5%;
+ 
+}
+
+#home1 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#home1 img {
+    border-radius: 10px;
+    width: 70%;
+}
+
+#home2 h2 {
+    padding-left: 5%;
+    font-family: 'Lucida Sans Regular';
+    font-size: 30px;
+  }
+
+#home2 p {
+    padding-left: 1%;
+    font-family: 'Trebuchet MS'; 
+    font-size: 17px;
+    font-weight: bold;
+} 
+
+#about {
+    background: #757780;
+    display: flex;
+    flex-direction: column;
+    color: #511730;
+    font-family: 'Trebuchet MS'; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#projects {
+    background: #757780;
+    display: flex;
+    flex-direction: column;
+    color: #511730;
+    font-family: 'Trebuchet MS'; 
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#projects img {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+#projects h3 {
+    text-align: center;
+    font-family: 'Lucida Sans Regular';
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#projects p {
+    margin: 0;
+}
+
+#contact {
+    background: #757780;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h3 {
+    color: #511730;
+    font-family: 'Lucida Sans Regular';
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left: 38%;
+    margin-bottom: 3%;
+}
+
+#name-and-email {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#contact label {
+    color: #511730;
+    font-family: 'Trebuchet MS'; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+#message-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#form-message label {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact textarea {
+    width: 74%;
+    margin-top: 1%;
+    margin-left: 18%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly
+}
+
+#contact button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+}
+
+form input, textarea {
+    background: #171219;
+    color: #fff;
+}
+
+footer {
+    background: #757780;
+    margin-top: 5%;
+}
+
+footer ul li a:link {
+    color: #511730;
+    font-family: 'Trebuchet MS'; 
+    font-size: 17px;
+    font-weight: bold;
+    }
+
+footer ul li a:visited {
+    color: #225560;
+    }
+
+footer ul li a:hover {
+    color: #757780;
+    }
+
+footer ul li a:active {
+    color: #171219
+    } */

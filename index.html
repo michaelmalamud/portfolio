@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Malamud</title>
+    <title>Michael Malamud | Web Developer </title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Nunito:ital,wght@0,600;0,800;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-		<h1>Michael Malamud</h1>
+		<h1 class="name">Michael Malamud</h1>
 		<nav>
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
     <main>
         <section id="home">
+            
            <img src="images/donkey.jpg" alt="Donkey">
-           <h2>Hi, I'm Michael Malamud. </h2> 
+      
+         
+           <h2>My goal is to build something you need.</h2> 
            <p>I'm a software engineering student at Thinkful learning the full stack. I enjoy constantly growing my experience in JavaScript, React, and Node, as well as different uses of CSS. I'm located in Austin, TX.</p> 
         </section>
         <section id="about">
             <p>Developing is a constant challenge, and that's what I've come to love about it. I'm a big fan of Test Driven Development. I love having conversations about the best practices in asynchronous JS, front-end design trends, and, of course, refactoring.</p>
-            <p>I also have a life outside of the screen! Reading, cooking, and music are high on my list of ways I love to spend my time. I don't watch much TV, but I like a good show as much as the next person. I'm currently getting through <em>The Sopranos</em> for the first time. </p>
+            <p>I also have a life outside of the screen! Reading, cooking, and music are high on the list of ways I love to spend my time. I don't watch much TV, but I like a good show as much as the next person. I'm currently getting through <em>The Sopranos</em> for the first time. </p>
         </section>
         <section id="projects">
             <img src="images/local-library.jpg" alt="library">
@@ -45,11 +50,15 @@
           <!-- All the Portfolio section can be placed here. -->
         </section>
         <section id="contact">
+            <h3>Contact</h3>
             <form action="https://formspree.io/f/xoqyaozj" method="post">
+                <div id="name-and-email">
                 <label for="user-name">Name:</label>
                 <input id="user-name" type="text" name="name" />
                 <label for="email">Email:</label>
                 <input id="email" type="text" name="email" />
+                </div>
+                <div id="message-form">
                 <label for="form-message">Message:</label>
                 <textarea
                     id="form-message"
@@ -57,6 +66,7 @@
                     required
                     maxlength="200"
                 ></textarea>
+            </div>
                 <button type="submit">Submit</button>
               </form>
         </section>
