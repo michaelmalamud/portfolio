@@ -171,13 +171,14 @@ form input {
     flex-direction: row; 
 }
 
-#menu {
+.contact-links {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 60%;
-    padding-left: 60%;
-    padding-right: 3%;
+    justify-content: center;
 }
+
+
 
 #menu ul li {
     padding-bottom: 10%;
