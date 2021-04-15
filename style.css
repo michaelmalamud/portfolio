@@ -6,7 +6,7 @@
   background: #a0b9c6;
 }
 
-.name {
+.name h1 {
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 90px;
   margin-bottom: 0;
@@ -17,13 +17,13 @@ header {
   flex-direction: column;
   color: #00a5cf;
   background: #004e64;
-  margin: 0;
 }
 
 header nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding-left: 0;
   justify-content: space-evenly;
 }
 
@@ -34,7 +34,7 @@ header nav ul li a {
   text-decoration: none;
 }
 
-.home {
+#home {
   display: flex;
   flex-direction: column;
   color: #044389;
@@ -45,7 +45,7 @@ header nav ul li a {
 img {
   width: 65%;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 h2 {
@@ -53,13 +53,27 @@ h2 {
 }
 
 h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h4 {
     font-size: 20px;
+    padding-top: 0;
+    margin-top: 2%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: #a0b9c6;
+    background: #044389;
+    width: 100%;
+
 }
 
 p {
   font-size: 17px;
   text-align: justify;
-  padding: 0 2%;
+margin-top: 2%;
 }
 
 
@@ -71,7 +85,7 @@ hr {
     width: 100%;
 }
 
-.about {
+#about {
   display: flex;
   flex-direction: column;
   color: #044389;
@@ -80,225 +94,313 @@ hr {
   margin-top: 0;
 }
 
-footer nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-/* .about img {
-  width: 65%;
-  margin: auto;
-  border-radius: 5px;
-} */
 
-
-/* .about-content p {
-    text-align: justify; 
-    padding: 0 2%;
-   
-} */
-/* html {
-    background: #225560;
-}
-
-header {
-    background: #225560;
-}
-
-header h1 {
-    color: #511730;
-    text-align: center;
-    margin: 0;
-    padding-top: 20px;
-    font-family: 'Lucida Sans Regular';
-    font-size: 50px;
-}
-
-header nav {
-    display: flex;
-    justify-content: center;
-}
-
-header nav ul {
-    display: flex; 
-    padding-left: 0;
-    list-style: none;
-}
-
-header nav ul li a {
-    color: #511730;
-    font-family: 'Trebuchet MS'; 
+#creations a {
     text-decoration: none;
-    margin: 0 20px 0 0;
+    font-size: 15px;
+    color: #1B2633;
+    padding: 1%;
+    border-radius: 5px;
 }
 
-header nav ul li:last-child a {
-    margin-right: 0;
-  }
-
-#home {
-    background: #757780;
+.flashcard-links {
     display: flex;
-    flex-direction: column;
-    color: #511730;
-    margin-bottom: 5%;
- 
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#home1 {
-    text-align: center;
-    padding-top: 2%;
-}
 
-#home1 img {
-    border-radius: 10px;
-    width: 70%;
-}
-
-#home2 h2 {
-    padding-left: 5%;
-    font-family: 'Lucida Sans Regular';
-    font-size: 30px;
-  }
-
-#home2 p {
-    padding-left: 1%;
-    font-family: 'Trebuchet MS'; 
-    font-size: 17px;
-    font-weight: bold;
-} 
-
-#about {
-    background: #757780;
+.local-library-links {
     display: flex;
-    flex-direction: column;
-    color: #511730;
-    font-family: 'Trebuchet MS'; 
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 5%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#projects {
-    background: #757780;
+.decoder-links {
     display: flex;
-    flex-direction: column;
-    color: #511730;
-    font-family: 'Trebuchet MS'; 
-    font-size: 17px;
-    font-weight: bold;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#projects img {
-    width: 60%;
-    margin-left: 20%;
-    border-radius: 10px;
+.pomodorro-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#projects h3 {
-    text-align: center;
-    font-family: 'Lucida Sans Regular';
-    font-size: 25px;
-    margin-top: 2%;
+
+#creations p {
+    margin-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#contact-head {
+    margin-top: 3%;
+    margin-bottom: 6%;
+    padding-left: 4%
+}
+
+form label {
+    display: block;
     margin-bottom: 2%;
 }
 
-#projects p {
-    margin: 0;
+form input {
+    width: 100%;
+    margin-bottom: 2%;
 }
 
-#contact {
-    background: #757780;
-    margin-top: 5%;
-    margin-left: 0;
-    margin-right: 0;
+form textarea {
+    width: 100%;
+    background: #a0b9c6;
+    border: 1px solid #044389;
+
+
+}
+
+form input {
+    background: #a0b9c6;
+    border: 1px solid #044389;
+}
+
+
+
+.bottom {
+    display: flex;
+    flex-direction: row; 
+}
+
+#menu {
     display: flex;
     flex-direction: column;
+    padding-top: 60%;
+    padding-left: 60%;
+    padding-right: 3%;
 }
 
-#contact h3 {
-    color: #511730;
-    font-family: 'Lucida Sans Regular';
-    font-size: 25px;
+#menu ul li {
+    padding-bottom: 10%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #1B2633;
+    font-size: 15px;
+}
+
+#menu {
+    list-style: none;
+}
+
+button {
+    color: #a0b9c6;
+    background: #044389;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
     margin-top: 2%;
-    margin-left: 38%;
-    margin-bottom: 3%;
-}
-
-#name-and-email {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-#contact label {
-    color: #511730;
-    font-family: 'Trebuchet MS'; 
-    font-size: 17px;
-    font-weight: bold;
-    margin-top: 2%;
-}
-
-#message-form {
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
+@media all and (min-width: 768px) {
 
-#form-message label {
+
+.name-and-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-left: 2%;
 }
 
-
-#contact textarea {
-    width: 74%;
-    margin-top: 1%;
-    margin-left: 18%;
+.name h1 {
+    margin-top: 0;
+    font-size: 70px;
+    flex: 2;
 }
 
-footer ul {
+.name-and-nav nav {
+    flex: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+}
+
+.name-and-nav nav ul li a {
+    font-size: 27px;
+}
+#menu {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-evenly
+    justify-content: space-around;
+  }
+
+  #home {
+      display: flex;
+      flex-direction: row;
+      padding: 3%;
+  }
+
+  #home img {
+      border-radius: 10px;
+      margin-left: 5%;
+      width: 50%;
+  }
+
+  .home-content h2 {
+      margin-top: 10%;
+  }
+
+  .home-content p {
+      padding-left: 18%;
+      padding-right: 18%;
+      margin-top: 5%;
+  }
+  
+  #about {
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 4%;
+  }
+
+  .about-content {
+    margin-bottom: 2%;
+  }
+  .about-content h2 {
+    margin-top: 2%;
 }
 
-#contact button {
-    display: flex;
-    flex-direction: column;
-    margin-left: 45%;
-}
-
-form input, textarea {
-    background: #171219;
-    color: #fff;
-}
-
-footer {
-    background: #757780;
+.about-content p {
+    padding-left: 18%;
+    padding-right: 18%;
     margin-top: 5%;
 }
 
-footer ul li a:link {
-    color: #511730;
-    font-family: 'Trebuchet MS'; 
-    font-size: 17px;
-    font-weight: bold;
-    }
+#about img {
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 50%;
 
-footer ul li a:visited {
-    color: #225560;
-    }
+} 
 
-footer ul li a:hover {
-    color: #757780;
-    }
+.creations-first-row {
+    display: flex;
+    flex-direction: row; 
+}
 
-footer ul li a:active {
-    color: #171219
-    } */
+.creations-second-row {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 3%;
+}
+
+.local-library {
+    width: 80%;
+}
+
+.decoder-ring {
+    width: 80%;
+}
+
+h4 {
+    width: 95%;
+}
+
+.local-library-text {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.decoder-ring-text {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.decoder-ring-text h3 {
+    margin-top: 6%;
+}
+
+.pomodorro {
+    width: 80%;
+}
+
+.flash-card-o-matic {
+    width: 80%;
+}
+
+.pomodorro-text {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.flashcard-text {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.flashcard-text h3 {
+    padding-top: 6%;
+}
+
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-head {
+    padding-right: 5%;
+    margin-bottom: 2%;
+}
+
+form label {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+form input {
+    width: 200px;
+}
+
+form label[for="form-message"] {
+    margin-bottom: 0;
+}
+
+form textarea {
+    display: block;
+    width: 50%;
+    margin-top: 0;
+    margin-left: 25%;
+}
+
+button {
+    margin-bottom: 2%;
+}
+
+.contact-links {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.contact-links ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+}
+
+.contact-links ul li {
+    padding-bottom: 0;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    padding: 0 0 0 2%;
+    margin-bottom: 0%;
+    border-top: 1px solid;
+
+}
+
+
+
+}
