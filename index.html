@@ -17,7 +17,7 @@
 
 <body class="container">
   <header>
-    <div class="name-and-nav">
+    <article class="name-and-nav">
       <div class="name">
         <h1>Michael Malamud</h1>
       </div>
@@ -29,10 +29,10 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </article>
   </header>
   <main>
-    <section id="home">
+    <article id="home">
       <img src="images/profile-resized.jpg" alt="profile-pic" id="home-image" />
 
       <div class="home-content">
@@ -43,9 +43,9 @@
           React, and Node. i'm located in austin, tx.
         </p>
       </div>
-    </section>
+    </article>
     <hr>
-    <section id="about">
+    <article id="about">
 
       <div class="about-content">
         <h2>little ol' me</h2>
@@ -53,7 +53,7 @@
           developing is a constant challenge, and that's what I've come to
           love about it. i'm a big fan of test driven development. i enjoy building things out by myself or with others.
           many ways exist to solve the same problem, and the more that we engage with each other and share our ideas and
-          solutions, the bigger problems we can solve.
+          solutions, the bigger problems we can solve. i find that surrounding myself with talented developers is best for my growth. for that reason, i aim to be on a team made up of great programmers!
         </p>
         <p>
           "prove that you're not a robot!" sure thing. like anyone, i do need my breaks from the blue-light-glare.
@@ -65,118 +65,119 @@
 
       <img src="images/food.jpg" alt="food" id="about-image" />
 
-    </section>
+    </article>
     <hr>
-    <section id="creations">
+    <article id="creations">
 
       <h2>creations</h2>
-      
+
       <div class="creations-first-row">
         <div class="local-library">
-      <img src="images/local-library.jpg" alt="library" />
-      <div class="local-library-text">
-        <div class="local-library-links">
-        <a href="https://github.com/michaelmalamud/Project_Local_Library_1">GitHub</a>
-        <a href="#creations">App</a>
-      </div>
-      <h3>local library</h3>
-      <p>
-        after my community came together to create a library, i wanted to use
-        JavaScript to help organize our collection. the result is this
-        application, where you can easily find popular books and authors,
-        match account ids to borrowed books, and do so much more!
-      </p>
-      <h4>stack: vanilla js</h4>
-      </div>
-    </div>
-    <div class="decoder-ring">
-      <img src="images/decoder-ring.jpg" alt="decoder-ring" />
-      <div class="decoder-ring-text">
-        <div class="decoder-links">
-          <a href="https://github.com/michaelmalamud/Project_Decoder_Ring_1">GitHub</a>
-          <a href="#creations">App</a>
-        </div>
-
-      <h3>decoder ring</h3>
-      <p>
-        the idea here was to build a nifty application that would encode and
-        decode messages in three different ways. it was a curiosity that became an obsessive exercise in meticulousness.
-        fun toy to get in a cereal
-        box, hair-puller of a personal project.
-      </p>
-      <h4>stack: vanilla js</h4>
-    </div>
-    </div>
-  </div>
-    <div class="creations-second-row">
-      <div class="pomodorro">
-      <img src="images/pomodorro-timer.jpg" alt="pomodorro-time" />
-      <div class="pomodorro-text">
-          <div class="pomodorro-links">
-            <a href="#creations">GitHub</a>
-            <a href="#creations">App</a>
+          <img src="images/local-library.jpg" alt="library" />
+          <div class="local-library-text">
+            <div class="local-library-links">
+              <a href="https://github.com/michaelmalamud/Project_Local_Library_1" target="_blank">GitHub</a>
+              <a href="#creations" target="_blank">App</a>
+            </div>
+            <h3>local library</h3>
+            <p>
+              after my community came together to create a library, i wanted to use
+              JavaScript to help organize our collection. the result is this
+              application, where you can easily find popular books and authors,
+              match account ids to borrowed books, and do so much more!
+            </p>
+            <h4>stack: vanilla js</h4>
           </div>
-      <h3>pomodorro timer</h3>
-      <p>
-        i use the pomodorro technique in my work flow. i started to wonder why
-        i was using the timer on my phone instead of just using an app on the
-        computer. then I thought, why not just build one myself? you can set your "focus" time up to 60 minutes, and
-        your break time up to 15. anyone who makes use of this productivity method would find utility in this app.
-      </p>
-      <h4>stack: react</h4>
-    </div>
-    </div>
-    <div class="flash-card-o-matic">
-      <img src="images/flash-card-o-matic.jpg" alt="flashcard-o-matic" />
-      <div class="flashcard-text">
-        <div class="flashcard-links">
-          <a href="#creations">GitHub</a>
-          <a href="#creations">App</a>
         </div>
-      <h3>flashcard-o-matic</h3>
-      <p>
-        flashcards are probably one of the optimum ways to study, so I wanted
-        to make an app that mimicked them. i think the people using this app (who will likely mostly be students of some
-        kind) will
-        find the quality of their studying to be the same, all while saving on
-        paper and time.
-      </p>
-      <h4>stack: react</h4>
-    </div>
-    </div>
-    </div>
-    </section>
-    <hr>
-    <section id="contact">
-    <h2 id="contact-head">contact</h2>
-    <div class="bottom">
-      <div class="contact">
-        <form action="https://formspree.io/f/xoqyaozj" method="post">
-          <!-- <div id="name-and-email"> -->
-          <label for="user-name">name:</label>
-          <input id="user-name" type="text" name="name" />
-          <label for="email">email:</label>
-          <input id="email" type="text" name="email" />
-          <!-- </div> -->
-          <!-- <div id="message-form"> -->
-          <label for="form-message">message:</label>
-          <textarea id="form-message" name="message" required maxlength="1000"></textarea>
-          <!-- </div> -->
-          <button type="submit">submit</button>
-        </form>
+        <div class="decoder-ring">
+          <img src="images/decoder-ring.jpg" alt="decoder-ring" />
+          <div class="decoder-ring-text">
+            <div class="decoder-links">
+              <a href="https://github.com/michaelmalamud/Project_Decoder_Ring_1" target="_blank">GitHub</a>
+              <a href="#creations" target="_blank">App</a>
+            </div>
+
+            <h3>decoder ring</h3>
+            <p>
+              the idea here was to build a nifty application that would encode and
+              decode messages in three different ways. it was a curiosity that became an obsessive exercise in
+              meticulousness.
+              fun toy to get in a cereal
+              box, hair-puller of a personal project.
+            </p>
+            <h4>stack: vanilla js</h4>
+          </div>
+        </div>
       </div>
-      <div class="contact-links">
+      <div class="creations-second-row">
+        <div class="pomodorro">
+          <img src="images/pomodorro-timer.jpg" alt="pomodorro-time" />
+          <div class="pomodorro-text">
+            <div class="pomodorro-links">
+              <a href="#creations" target="_blank">GitHub</a>
+              <a href="#creations" target="_blank">App</a>
+            </div>
+            <h3>pomodorro timer</h3>
+            <p>
+              i use the pomodorro technique in my work flow. i started to wonder why
+              i was using the timer on my phone instead of just using an app on the
+              computer. then I thought, why not just build one myself? you can set your "focus" time up to 60 minutes,
+              and
+              your break time up to 15. anyone who makes use of this productivity method would find utility in this app.
+            </p>
+            <h4>stack: react</h4>
+          </div>
+        </div>
+        <div class="flash-card-o-matic">
+          <img src="images/flash-card-o-matic.jpg" alt="flashcard-o-matic" />
+          <div class="flashcard-text">
+            <div class="flashcard-links">
+              <a href="#creations" target="_blank">GitHub</a>
+              <a href="#creations" target="_blank">App</a>
+            </div>
+            <h3>flashcard-o-matic</h3>
+            <p>
+              flashcards are probably one of the optimum ways to study, so I wanted
+              to make an app that mimicked them. i think the people using this app (who will likely mostly be students
+              of some
+              kind) will
+              find the quality of their studying to be the same, all while saving on
+              paper and time.
+            </p>
+            <h4>stack: react</h4>
+          </div>
+        </div>
+      </div>
+    </article>
+    <hr>
+  </main>
+  <footer>
+    <h2 id="footer-header">contact</h2>
+    <article class="footer-contents">
+      <form action="https://formspree.io/f/xoqyaozj" method="post">
+        <!-- <div id="name-and-email"> -->
+        <label for="user-name">name:</label>
+        <input id="user-name" type="text" name="name" required />
+        <label for="email">email:</label>
+        <input id="email" type="text" name="email" required />
+        <!-- </div> -->
+        <!-- <div id="message-form"> -->
+        <label for="form-message">message:</label>
+        <textarea id="form-message" name="message" required maxlength="1000"></textarea>
+        <!-- </div> -->
+        <button type="submit">submit</button>
+      </form>
+      <div class="footer-links">
         <ul id="menu">
           <li><a href="mailto:michael.malamud@outlook.com">email</a></li>
-          <li><a href="https://github.com/michaelmalamud">gitHub</a></li>
+          <li><a href="https://github.com/michaelmalamud" target="_blank">gitHub</a></li>
           <li>
-            <a href="https://www.linkedin.com/in/michael-malamud-3bb8b01a0/">linkedIn</a>
+            <a href="https://www.linkedin.com/in/michael-malamud-3bb8b01a0/" target="_blank">linkedIn</a>
           </li>
         </ul>
       </div>
-    </div>
-  </section>
-  </main>
+    </article>
+  </footer>
 </body>
 
 </html>

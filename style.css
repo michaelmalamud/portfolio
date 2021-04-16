@@ -42,6 +42,10 @@ header nav ul li a {
   padding-top: 5%;
 }
 
+.home-content p {
+    padding-left: 3%;
+    padding-right: 3%;
+}
 img {
   width: 65%;
   margin: auto;
@@ -94,6 +98,10 @@ hr {
   margin-top: 0;
 }
 
+.about-content p {
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
 #creations a {
     text-decoration: none;
@@ -135,7 +143,7 @@ hr {
     padding-right: 3%;
 }
 
-#contact-head {
+#footer-header {
     margin-top: 3%;
     margin-bottom: 6%;
     padding-left: 4%
@@ -166,12 +174,12 @@ form input {
 
 
 
-.bottom {
+.footer-contents {
     display: flex;
     flex-direction: row; 
 }
 
-.contact-links {
+.footer-links {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -260,14 +268,14 @@ button {
   #about {
       display: flex;
       flex-direction: row-reverse;
-      padding: 4%;
+      padding: 3%;
   }
 
   .about-content {
-    margin-bottom: 2%;
+    margin-bottom: 6%;
   }
   .about-content h2 {
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .about-content p {
@@ -300,10 +308,6 @@ button {
 
 .decoder-ring {
     width: 80%;
-}
-
-h4 {
-    width: 95%;
 }
 
 .local-library-text {
@@ -342,12 +346,12 @@ h4 {
 }
 
 
-.bottom {
+.footer-contents {
     display: flex;
     flex-direction: column;
 }
 
-#contact-head {
+#footer-header {
     padding-right: 5%;
     margin-bottom: 2%;
 }
@@ -376,19 +380,19 @@ button {
     margin-bottom: 2%;
 }
 
-.contact-links {
+.footer-links {
     margin-bottom: 0;
     padding: 0;
 }
 
-.contact-links ul {
+.footer-links ul {
     display: flex;
     flex-direction: row;
     margin-bottom: 0;
     justify-content: space-evenly;
 }
 
-.contact-links ul li {
+.footer-links ul li {
     padding-bottom: 0;
 }
 
