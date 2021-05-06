@@ -1,5 +1,7 @@
 # Portfolio
 
+![ScreenShot](https://raw.github.com/michaelmalamud/portfolio2/main/images/page-screenshot.jpg)
+
 ## Context 
 A website showcasing projects that I have worked on. 
 
