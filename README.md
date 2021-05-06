@@ -8,6 +8,9 @@ A website showcasing projects that I have worked on.
 ## User
 Users to this website would largely be potential employers who want to see past projects to determine my skill set. 
 
+## Use
+Demonstrate the technologies I know, and what I can do with them, to potential employers. 
+
 ## Features
 Mobile-responsive
 
