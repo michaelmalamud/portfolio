@@ -111,10 +111,9 @@ hr {
     border-radius: 5px;
 }
 
-.flashcard-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.flashcard-links p {
+ color: black;
+ text-align: center;
 }
 
 
@@ -290,6 +289,10 @@ button {
     width: 50%;
 
 } 
+
+#projects img {
+    height: 215px;
+}
 
 .creations-first-row {
     display: flex;
